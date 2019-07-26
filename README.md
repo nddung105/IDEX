@@ -1,6 +1,8 @@
 # IDEX
 Vietnamese ID card OCR system from raw image
 
+## Introduction
+This is a program we developed as our side project to detect and extract information from latest type of Vietnamese ID card, we don't write this to work for other types of cards.
 
 ## Dependencies
     1. tensorflow 1.14.0
@@ -24,4 +26,12 @@ Vietnamese ID card OCR system from raw image
 ## How to run
     cd IDEX
     python run.py --input path/to/image.jpg --output path/to/output (you can skip the output part if you only want to see the result)
+    
+    
+## Limitations
+    1. Can't run for images that contain more than 1 card.
+    2. Can't run for images whose background color and ID card color have low contrast (since we are using classical computer vision)
+    3. Can't run for images with bad lighting (ID card edges covered in shadow,...)
+    4. Doesn't 100% give the right anwer (obviously, duh)
+    5. The saved_model only works for latest type of Vietnamese ID card image, and only detect names, id number and DoB, but you can always train a new model and improve the program.
     
