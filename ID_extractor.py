@@ -1,6 +1,3 @@
-"""
-Author: Louis Do
-"""
 import numpy as np
 import cv2
 from scipy.spatial import distance as dist
