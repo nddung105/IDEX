@@ -13,7 +13,7 @@ Vietnamese ID card OCR system from raw image
     
 ## Installation
     1. Install the requirements
-    2. Get the tessdata from this link: https://github.com/tesseract-ocr/tessdata and put this in your Tesseract-OCR folder
+    2. Get the tessdata folder from this link: https://github.com/tesseract-ocr/tessdata and put this in your Tesseract-OCR folder
     3. Run run.py
     
 
